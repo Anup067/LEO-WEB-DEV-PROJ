@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: image-set("https://c8.alamy.com/comp/2J9EXJ6/cartoon-colorful-desserts-seamless-pattern-with-sweet-products-cakes-cupcakes-cookies-macaroons-donuts-and-berries-vector-illustration-2J9EXJ6.jpg");
+    color: #080707;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color:#FF0080;
+    color:#EBE0D0;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  /* Cake Selection Section */
+  .cake-selection {
+    margin: 40px auto;
+  }
+  
+  .cake-selection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .cake-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cake-option {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .cake-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .cake-option img {
+    width: 100%;
+    height:150px;
+    border-radius: 8px;
+  }
+  
+  .cake-option h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+  }
+   /* Pastry Selection Section */
+   .pastry-selection {
+    margin: 40px auto;
+  }
+  
+  .pastry-selection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .pastry-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pastry-option {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .pastry-option:hover {
+    transform: scale(1.1);
+  }
+  
+  .pastry-option img {
+    width: 100%;
+    height:150px;
+    border-radius: 8px;
+  }
+  
+  .pastry-option h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+  }
